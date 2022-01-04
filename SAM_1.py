@@ -2,6 +2,7 @@ import sys
 from PyQt5 import uic, QtWidgets
 from SAM_2 import verificação
 
+
 class load_arquivos:
         def __init__(self):
             self.arquivo_fornecedor = []
