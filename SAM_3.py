@@ -215,7 +215,6 @@ class consolidando_arquivos:
             list_col_twm.append(self.ws_twm.cell(row=1, column=col_twm+1).value)
         self.list_col_twm = list_col_twm
         
-        
         indice_conta_aglutinada = list_col_twm.index('Conta aglutinada') + 1
         indice_desc_serviço = self.list_col_consolidado.index('Descrição Serviço') + 1  
         indice_num_conta = self.list_col_consolidado.index('Nº da Conta') + 1 
@@ -257,7 +256,8 @@ class consolidando_arquivos:
 
             if self.list_col_consolidado[j] == 'Categoria':
                 for i in range (self.count_row_fornecedor-1):
-                    for c in range(self.count_row_categoria-1):  
+                    for c in range(self.count_row_categoria-1):
+                        print(j, ':', self.list_col_consolidado[j],'----', i, '----', c)
                         if (str(self.ws_consolidado.cell (row = i+2, column = indice_desc_serviço).value)).upper() == (str(self.ws_categoria.cell (row =c+2, column = 1).value)).upper():
                             self.ws_consolidado.cell (row = i+2, column = j+1).value = self.ws_categoria.cell (row =c+2, column = 2).value
                         elif (str(self.ws_categoria.cell (row =c+2, column = 4).value)).upper() in (str(self.ws_consolidado.cell (row = i+2, column = indice_desc_serviço).value)).upper():
@@ -266,6 +266,7 @@ class consolidando_arquivos:
             elif self.list_col_consolidado[j] == 'Subcategoria':
                 for i in range (self.count_row_fornecedor-1):
                     for c in range(self.count_row_categoria-1):
+                        print(j, ':', self.list_col_consolidado[j],'----', i, '----', c)
                         if (str(self.ws_consolidado.cell (row = i+2, column = indice_desc_serviço).value)).upper() == (str(self.ws_categoria.cell (row =c+2, column = 1).value)).upper():
                            self.ws_consolidado.cell (row = i+2, column = j+1).value = self.ws_categoria.cell (row =c+2, column = 3).value
                         elif (str(self.ws_categoria.cell (row =c+2, column = 5).value)).upper() in (str(self.ws_consolidado.cell (row = i+2, column = indice_desc_serviço).value)).upper():
@@ -275,6 +276,7 @@ class consolidando_arquivos:
                 if self.list_col_consolidado[j] == 'Localidade':                    
                     for i in range (self.count_row_fornecedor-1):
                         for l in range (self.count_row_localidade_riachuelo):
+                            print(j, ':', self.list_col_consolidado[j],'----', i, '----', l)
                             if (str(self.ws_consolidado.cell (row = i+2, column = 1).value)).upper() == (str(self.ws_localidade_riachuelo.cell (row = l+2, column = 1).value)).upper():
                                 self.ws_consolidado.cell (row = i+2, column = j+1).value = self.ws_localidade_riachuelo.cell (row = l+2, column = 4).value
                             
@@ -301,11 +303,12 @@ class consolidando_arquivos:
         self.wb_consolidado.save('______consolidado_' + self.Cliente + '_' + self.Nome_do_fornecedor+'.xlsx')
         print('Save file >>>>>', '______consolidado_' + self.Cliente + '_' + self.Nome_do_fornecedor+'.xlsx')
         
-        try:
-            print('Valindando consumo...')
-            consolidando_arquivos.validar_consumo(self)
-        except:
-            print('Valor consumo não pode ser avaliado!')
+        
+        #try:
+        #   print('Valindando consumo...')
+        #consolidando_arquivos.validar_consumo(self)
+        #except:
+        #    print('Valor consumo não pode ser avaliado!')
 
     def validar_consumo(self):
         j = 0
