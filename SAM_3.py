@@ -257,7 +257,7 @@ class consolidando_arquivos:
             if self.list_col_consolidado[j] == 'Categoria':
                 for i in range (self.count_row_fornecedor-1):
                     for c in range(self.count_row_categoria-1):
-                        print(j, ':', self.list_col_consolidado[j],'----', i, '----', c)
+                        #print(j, ':', self.list_col_consolidado[j],'----', i, '----', c)
                         if (str(self.ws_consolidado.cell (row = i+2, column = indice_desc_serviço).value)).upper() == (str(self.ws_categoria.cell (row =c+2, column = 1).value)).upper():
                             self.ws_consolidado.cell (row = i+2, column = j+1).value = self.ws_categoria.cell (row =c+2, column = 2).value
                         elif (str(self.ws_categoria.cell (row =c+2, column = 4).value)).upper() in (str(self.ws_consolidado.cell (row = i+2, column = indice_desc_serviço).value)).upper():
@@ -266,7 +266,7 @@ class consolidando_arquivos:
             elif self.list_col_consolidado[j] == 'Subcategoria':
                 for i in range (self.count_row_fornecedor-1):
                     for c in range(self.count_row_categoria-1):
-                        print(j, ':', self.list_col_consolidado[j],'----', i, '----', c)
+                        #print(j, ':', self.list_col_consolidado[j],'----', i, '----', c)
                         if (str(self.ws_consolidado.cell (row = i+2, column = indice_desc_serviço).value)).upper() == (str(self.ws_categoria.cell (row =c+2, column = 1).value)).upper():
                            self.ws_consolidado.cell (row = i+2, column = j+1).value = self.ws_categoria.cell (row =c+2, column = 3).value
                         elif (str(self.ws_categoria.cell (row =c+2, column = 5).value)).upper() in (str(self.ws_consolidado.cell (row = i+2, column = indice_desc_serviço).value)).upper():
@@ -276,7 +276,7 @@ class consolidando_arquivos:
                 if self.list_col_consolidado[j] == 'Localidade':                    
                     for i in range (self.count_row_fornecedor-1):
                         for l in range (self.count_row_localidade_riachuelo):
-                            print(j, ':', self.list_col_consolidado[j],'----', i, '----', l)
+                            #print(j, ':', self.list_col_consolidado[j],'----', i, '----', l)
                             if (str(self.ws_consolidado.cell (row = i+2, column = 1).value)).upper() == (str(self.ws_localidade_riachuelo.cell (row = l+2, column = 1).value)).upper():
                                 self.ws_consolidado.cell (row = i+2, column = j+1).value = self.ws_localidade_riachuelo.cell (row = l+2, column = 4).value
                             
