@@ -1418,3 +1418,438 @@ DEBUG:root:('Failed to retrieve database topology from all known nodes', [('http
 DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
 INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\2bad18145a2f702371d0f826decebb26.raven-topology'
 DEBUG:root:('Failed to retrieve database topology from all known nodes', [('http://localhost:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /topology?name=PyRavenDB (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE830414C0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002DE83572160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002DE83572160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002DE83572160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002DE83572160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002DE83572160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002DE83572160>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000002DE8356D700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000002DE8356D700>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000002DE8356D700>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=Northwind HTTP/1.1" 503 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=Northwind HTTP/1.1" 503 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-08fef053-7143-4fc7-9860-bc415838799d HTTP/1.1" 503 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-08fef053-7143-4fc7-9860-bc415838799d HTTP/1.1" 503 None
+DEBUG:root:Database DemoUser-08fef053-7143-4fc7-9860-bc415838799d does not exists
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=employees%2F8-A HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DC99BB0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCB49A0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCB4E20>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DC5A0D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCA1130>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCAFF70>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DC99430>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCBEBE0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DC94D90>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DC99400>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCC6670>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCAA7C0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCAF4F0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCAA8E0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCF3550>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCF3100>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCAABB0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DD02340>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCD8430>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCAA580>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCD8CD0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCF5E20>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCAABE0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=employees%2F8-A HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=employees%2F8-A HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=employees%2F8-A HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=employees%2F8-A HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE name = $p0 OR key IN ($p1)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-2752709181938537827 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=employees%2F8-A HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE name = $p0 OR key IN ($p1)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-2752709181938537827 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=products%2F77-A HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE name = $p0 OR key IN ($p1)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-2752709181938537827 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=products%2F77-A HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE name = $p0 OR key IN ($p1)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-2752709181938537827 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=products%2F77-A HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE name = $p0 OR key IN ($p1)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-2752709181938537827 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=products%2F77-A HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE name = $p0 OR key IN ($p1)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-2752709181938537827 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE startsWith(name, $p0)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-3640016182758857284 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=products%2F77-A HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE name = $p0 OR key IN ($p1)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-2752709181938537827 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE startsWith(Raven, $p0)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=4386664926546426423 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=products%2F77-A HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE name = $p0 OR key IN ($p1)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-2752709181938537827 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE startsWith(Raven, $p0)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=4386664926546426423 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=products%2F77-A HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE name = $p0 OR key IN ($p1)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-2752709181938537827 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE startsWith(Id, $p0)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=4075189241305445432 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=products%2F77-A HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE name = $p0 OR key IN ($p1)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-2752709181938537827 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE startsWith(Id, $p0)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=4075189241305445432 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=products%2F77-A HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=products%2F77-A HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=products%2F77-A HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/docs?&id=products%2F77-A HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCD46A0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCD4B20>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DD22790>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DD023A0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCB4070>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DD226D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DC99430>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCF5640>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DC5AE20>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8D539EE0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCF6DC0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCD85E0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DC998B0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DCBE610>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DD3D520>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DC99F70>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DD27C40>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DD11B20>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DD3D1F0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DD11D30>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DD2C2B0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DD114C0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\744ec496adf310967bb23c92e5ec2e6c.raven-cluster-topology'
+DEBUG:root:('Failed to retrieve cluster topology from all known nodes', [('http://127.0.0.1:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /cluster/topology (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DE8DD3D0A0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:root:Executing query 'FROM @all_docs WHERE name = $p0 OR key IN ($p1)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-2752709181938537827 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE startsWith(Id, $p0)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=4075189241305445432 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE Id = $p0 OR key IN ($p1)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-4196224538708962520 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE startsWith(Id, $p0)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=4075189241305445432 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE Id = $p0 OR key IN ($p1)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-4196224538708962520 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE startsWith(Id, $p0)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=3927677662216424268 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE Id = $p0' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=5065107215199436581 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE startsWith(Id, $p0)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=3927677662216424268 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE Name = $p0' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=2731226388365346721 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE startsWith(Id, $p0)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=3927677662216424268 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE Name = $p0' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=2731226388365346721 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE startsWith(Name, $p0)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-5252442994554694729 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE Name = $p0' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=2731226388365346721 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE startsWith(Name, $p0)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-5252442994554694729 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE Name = $p0' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=2731226388365346721 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE startsWith(Name, $p0)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-5252442994554694729 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE Name = $p0' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /studio/index.html/topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 503 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /studio/index.html/topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 503 None
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\70bbc49ac37324d594d635bc9b7ef632.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('http://live-test.ravendb.net/studio/index.html', UnsuccessfulRequestException('http://live-test.ravendb.net/studio/index.html', {'url': 'http://live-test.ravendb.net/studio/index.html/topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197', 'error': 'Failed to make a request from a newer client with build version 5.0.0.2 to an older server with build version 5.3.100.53.\nUpgrading this node might fix this issue.', 'type': 'str'}))])
+DEBUG:root:Executing query 'FROM @all_docs WHERE Name = $p0' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=2731226388365346721 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE startsWith(Name, $p0)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-5252442994554694729 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE Name = $p0' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 403 None
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\9d682482d97e7645c197a8ad3accdccb.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.community', AuthorizationException('Forbidden access to DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197@https://a.rdbguiando.ravendb.community, a certificate is required.GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197'))])
+DEBUG:root:Executing query 'FROM @all_docs WHERE Name = $p0' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "GET /topology?name=DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=2731226388365346721 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE startsWith(Name, $p0)' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): live-test.ravendb.net:80
+DEBUG:urllib3.connectionpool:http://live-test.ravendb.net:80 "POST /databases/DemoUser-0c45ed3e-37e7-48e7-9a7a-e0de6613a197/queries?query-hash=-5252442994554694729 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE Name = $p0' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=automacao-faturas HTTP/1.1" 403 None
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\2183db221ad6c54a3a796376b5ca9776.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.community', AuthorizationException('Forbidden access to automacao-faturas@https://a.rdbguiando.ravendb.community, a certificate is required.GET /topology?name=automacao-faturas'))])
+DEBUG:root:Executing query 'FROM @all_docs WHERE file_name = $p0' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\2183db221ad6c54a3a796376b5ca9776.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.community', SSLError(MaxRetryError("HTTPSConnectionPool(host='a.rdbguiando.ravendb.community', port=443): Max retries exceeded with url: /topology?name=automacao-faturas (Caused by SSLError('Client private key is encrypted, password is required'))")))])
+DEBUG:root:Executing query 'FROM @all_docs WHERE file_name = $p0' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\121fe66e171c7fc2beedf095117244b5.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.community', SSLError(MaxRetryError("HTTPSConnectionPool(host='a.rdbguiando.ravendb.community', port=443): Max retries exceeded with url: /topology?name=Automacao (Caused by SSLError('Client private key is encrypted, password is required'))")))])
