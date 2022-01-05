@@ -49,13 +49,17 @@ class load_arquivos:
             
             fornecedor_x = 0 
             while fornecedor_x < len(self.list_fornecedor):
-                chama_SAM2 = verificação(self.list_fornecedor[fornecedor_x], self.palavra_chave, self.Cliente)
-                chama_SAM2.criar_new_sheet()
-                chama_SAM2.count_ws()
-                chama_SAM2.File_name()      
-                chama_SAM2.count_new_ws()
-                chama_SAM2.tabela_dinâmica_new_sheet()
-                chama_SAM2.comparar_valores()
+                print("Fazendo....>> ", self.list_fornecedor[fornecedor_x])
+                try:
+                    chama_SAM2 = verificação(self.list_fornecedor[fornecedor_x], self.palavra_chave, self.Cliente)
+                    chama_SAM2.criar_new_sheet()
+                    chama_SAM2.count_ws()
+                    chama_SAM2.File_name()      
+                    chama_SAM2.count_new_ws()
+                    chama_SAM2.tabela_dinâmica_new_sheet()
+                    chama_SAM2.comparar_valores()
+                except:
+                    print("Erro ao calcular >> ", self.list_fornecedor[fornecedor_x])                   
                 
                 fornecedor_x+=1
             

@@ -197,12 +197,6 @@ class verificação():
         print('-----',len(list_layout),'-------')
         print(list_layout)
         print('--------------')
-        
-        #disc_listas = dict.list_identificador
-        
-        
-        
-        
 
         dic_vltotal = dict(zip(list_identificador, list_valor_total))
         dic_auditoria = dict(zip(list_identificador, list_valor_auditoria))
