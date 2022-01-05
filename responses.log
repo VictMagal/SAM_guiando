@@ -1853,3 +1853,23 @@ DEBUG:root:Executing query 'FROM @all_docs WHERE file_name = $p0' on index 'dyna
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
 INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM - (Magal)\\SAM\\topology_files\\121fe66e171c7fc2beedf095117244b5.raven-topology'
 DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.community', SSLError(MaxRetryError("HTTPSConnectionPool(host='a.rdbguiando.ravendb.community', port=443): Max retries exceeded with url: /topology?name=Automacao (Caused by SSLError('Client private key is encrypted, password is required'))")))])
+DEBUG:root:Executing query 'FROM @all_docs WHERE file_name = $p0' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=automacao-faturas HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "POST /databases/automacao-faturas/queries?query-hash=7200279485231681240 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE file_name = $p0' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=automacao-faturas HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "POST /databases/automacao-faturas/queries?query-hash=-4832971224232060988 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE file_name = $p0' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=automacao-faturas HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "POST /databases/automacao-faturas/queries?query-hash=-4832971224232060988 HTTP/1.1" 200 None
+DEBUG:root:Executing query 'FROM @all_docs WHERE file_name = $p0' on index 'dynamic'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=automacao-faturas HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "POST /databases/automacao-faturas/queries?query-hash=-4832971224232060988 HTTP/1.1" 200 None
