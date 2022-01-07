@@ -1,5 +1,6 @@
 from pyravendb.store import document_store
 
+print('XXXXXXX... NEW_SAM_1...XXXXXXXXXXXXX')
 class Query():
     def setUp (self):
         # Configurações de acesso ao RavenDB da guiabdo: "usando PFX file para certificação"
@@ -31,6 +32,3 @@ class Query():
            print(query_results)
            print(len(query_results))
            print('------------------------------')
-
-            
-print('XXXXXXXXXXXXXXXXXXXX')
